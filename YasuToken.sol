@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'Yasu' token contract
 //
-// Deployed to : 0x4FaE4A8fecD48aD7D8CF93c614988A64cbB5A988
+// Deployed to : 0x7D949DA7DE8a419E578384409c41da80d3e31157
 // Symbol      : YSU
 // Name        : 0 Yasu Token
 // Total supply: 100000000
@@ -117,8 +117,8 @@ contract YasuToken is ERC20Interface, Owned, SafeMath {
         name = "0 Yasu Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0x4FaE4A8fecD48aD7D8CF93c614988A64cbB5A988] = _totalSupply;
-        emit Transfer(address(0), 0x4FaE4A8fecD48aD7D8CF93c614988A64cbB5A988, _totalSupply);
+        balances[0x7D949DA7DE8a419E578384409c41da80d3e31157] = _totalSupply;
+        emit Transfer(address(0), 0x7D949DA7DE8a419E578384409c41da80d3e31157, _totalSupply);
     }
 
 
