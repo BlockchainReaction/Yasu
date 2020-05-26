@@ -3,10 +3,10 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'Yasu' token contract
 //
-// Deployed to : 0x7D949DA7DE8a419E578384409c41da80d3e31157
-// Symbol      : YSU
-// Name        : 0 Yasu Token
-// Total supply: 100000000
+// Deployed to : 0x09ABa9217C1420beC065c0dc64E3aFd79239be8c
+// Symbol      : RIG
+// Name        : 0 Ring Token
+// Total supply: 100000000000000000000000000
 // Decimals    : 18
 //
 // Enjoy.
@@ -113,12 +113,12 @@ contract YasuToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "YSU";
-        name = "0 Yasu Token";
+        symbol = "RIG";
+        name = "0 Ring Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0x7D949DA7DE8a419E578384409c41da80d3e31157] = _totalSupply;
-        emit Transfer(address(0), 0x7D949DA7DE8a419E578384409c41da80d3e31157, _totalSupply);
+        balances[0x09ABa9217C1420beC065c0dc64E3aFd79239be8c] = _totalSupply;
+        emit Transfer(address(0), 0x09ABa9217C1420beC065c0dc64E3aFd79239be8c, _totalSupply);
     }
 
 
